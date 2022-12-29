@@ -12,7 +12,7 @@
         android:layout_height="74dp"
         android:layout_marginStart="45dp"
         android:layout_marginEnd="45dp"
-        android:fontFamily="@font/almendra_sc"
+        android:fontFamily="@font/faster_one"
         android:gravity="center"
         android:text="GoodsMent"
         android:textColor="@color/blue"
@@ -32,6 +32,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="25dp"
         android:text="Create your Account"
+        android:fontFamily="@font/adamina"
         android:textColor='@color/black'
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,6 +49,7 @@
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/person"
         android:drawablePadding="10dp"
+        android:fontFamily="@font/adamina"
         android:ems="10"
         android:hint="name"
         android:inputType="textPersonName"
@@ -61,7 +63,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/edtemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -70,6 +72,7 @@
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:drawablePadding="10dp"
+        android:fontFamily="@font/adamina"
         android:ems="10"
         android:hint="email"
         android:inputType="textEmailAddress"
@@ -93,6 +96,7 @@
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/phone"
         android:drawablePadding="10dp"
+        android:fontFamily="@font/adamina"
         android:ems="10"
         android:hint="contact number"
         android:inputType="phone"
@@ -103,7 +107,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/edtemail"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -116,6 +120,7 @@
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/city"
         android:drawablePadding="10dp"
+        android:fontFamily="@font/adamina"
         android:ems="10"
         android:hint="city"
         android:inputType="text"
@@ -130,7 +135,7 @@
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/edtpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -141,6 +146,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="password"
+        android:fontFamily="@font/adamina"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
@@ -153,19 +159,20 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/btnSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="150dp"
         android:background="@drawable/input_bg"
+        android:fontFamily="@font/adamina"
         android:backgroundTint="#180AF7"
         android:text="sign up"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/edtpassword" />
 
     <TextView
         android:id="@+id/textView2"
@@ -176,11 +183,12 @@
         android:layout_marginEnd="100dp"
         android:gravity="center"
         android:text="- Or sign up with -"
+        android:fontFamily="@font/adamina"
         android:textColor="@color/blue"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signup" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
 
     <ImageButton
         android:id="@+id/google"
@@ -210,11 +218,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="184dp"
+        android:layout_height="28dp"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="160dp"
+        android:fontFamily="@font/adamina"
         android:text="Already have an account?"
         android:textColor="@color/black"
         android:textSize="15dp"
@@ -223,11 +232,12 @@
         app:layout_constraintTop_toBottomOf="@+id/google" />
 
     <TextView
-        android:id="@+id/signin"
+        android:id="@+id/txtSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="110dp"
+        android:fontFamily="@font/adamina"
         android:text="signin"
         android:textColor="@color/blue"
         android:textSize="15dp"
